@@ -68,8 +68,10 @@ treated as missing data (see Known issues). No filtering or re-referencing was
 applied.
 
 Channels: 64 EEG channels, `EMG1` to `EMG4` (the ExG channels of the Aim II),
-`ECG`, `RESP`, `GSR` and `PPG`. The photoplethysmography channel is not used in
-the associated article and is flat in 36 of the 78 recordings. The Aim II oxygen
+`ECG`, `RESP`, `GSR` and `PPG`. No photoplethysmography sensor was attached in
+this study: `PPG` is the unused device slot and holds no physiological signal
+(it is flat in 36 of the 78 recordings). Since version 1.0.1 it is marked `bad`
+in `channels.tsv` (the code in `code/` predates this). The Aim II oxygen
 saturation, heart rate, temperature and trigger channels held constant values in
 nearly all recordings and no physiological signal in any, and the packet counter
 is a device counter; these channels are not included. The device labels every
