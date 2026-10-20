@@ -3,8 +3,8 @@ sub-001	yes	34	male	100	7	4	25
 sub-002	yes	32	female	60	7	3	5
 sub-003	yes	49	female	12	5	2	10
 sub-004	yes	31	female	12	7	2	6
-sub-005	no	42	female	40	7	3	22
-sub-006	no	55	female	31	6	2	20
+sub-005	yes	42	female	40	7	3	22
+sub-006	yes	55	female	31	6	2	20
 sub-007	yes	48	male	52	7	3	9
 sub-008	yes	47	female	40	7	3	30
 sub-009	yes	57	male	23	7	3	10

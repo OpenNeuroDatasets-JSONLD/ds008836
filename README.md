@@ -91,6 +91,16 @@ markers do not name the block; the block given is that of the preceding report o
 prompt window. A free-text note written by the experiment software in every file
 is omitted.
 
+A rating is entered by pressing the clicker once per level (each press is a
+`clicker_press` row) and is registered when its response window closes, not at a
+press. In the emerge variant the participant's first press opens the report window
+(`report_window_begin`) and the depth rating is registered 4 s later; in the probe
+variant the prompt (`prompt_window_begin`) opens a 9 s window. The confidence rating
+is registered 10 s after the depth rating. The `depth_rating` and
+`confidence_rating` rows therefore fall a median 2.5 s after the last press of the
+rating, and the first press of a depth rating comes a median 4 s before its row
+(up to about 8 s). Analyses that take data before a rating should allow for this.
+
 ## Questionnaires
 
 Questionnaires were completed with Castor ePRO and are in `phenotype/`, in one
